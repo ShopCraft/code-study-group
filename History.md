@@ -23,3 +23,8 @@ pygame.display.update() # update the physical display on screen
 Colors: (R G B A)
 Alpha = transparency 0 --> 255 opaque
 must use convert_alpha for transparent items
+
+
+
+########################
+

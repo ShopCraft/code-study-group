@@ -26,16 +26,28 @@ DISPLAYSURF.fill(colors.Teal)
 
 #pygame.draw.line(DISPLAYSURF, colors.Fuchsia, (120, 60), (60, 120))
 
-rangelength=int(((WIDTH/20)+(HEIGHT/20))) # error correct later to center for non integer results)
-print(rangelength)
+# rangelength=int(((WIDTH/20)+(HEIGHT/20))) # error correct later to center for non integer results)
+# print(rangelength)
 
+# for i in range(rangelength):
+#     x=i*20+20
+#     y=y+20
+#     pos=(x,y)
+#     print(pos)
+#     pygame.draw.circle(DISPLAYSURF, colors.Fuchsia, pos, 5, 0)
 
-for i in range(rangelength):
-    x=i*20+20
-    y=y+20
-    pos=(x,y)
-    print(pos)
-    pygame.draw.circle(DISPLAYSURF, colors.Fuchsia, pos, 5, 0)
+x_range=range(1,int(WIDTH/20))
+y_range=range(1,int(HEIGHT/20))
+
+xy_range=(x_range,y_range)
+print(xy_range)
+
+for i in range(1,14): 
+    pygame.draw.circle(DISPLAYSURF, colors.Fuchsia, (x_range[i]*20,i*20),5,0)
+    for  in range(1,14): 
+        print(x_range[i])
+        print(y_range[i])
+        pygame.draw.circle(DISPLAYSURF, colors.Fuchsia, (i*20, y_range[i]*20),5,0)
 
 # Main game loop
 while True: 
