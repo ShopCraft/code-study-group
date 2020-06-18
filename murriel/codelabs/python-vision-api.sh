@@ -7,3 +7,4 @@ gcloud iam service-accounts keys create auth/key.json --iam-account vision-api-s
 pip3 install -U pip google-cloud-vision
 python3 -c "import google.cloud.vision"
 
+added exported variable to bin/activate
