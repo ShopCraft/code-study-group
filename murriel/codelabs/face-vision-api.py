@@ -22,7 +22,7 @@ for pic in pics:
 
     print('=' * 79)
     print(f'File: {pic}')
-    # print(response)
+    #print(response)
    
     for face in response.face_annotations:
         likelihood = vision.enums.Likelihood(face.surprise_likelihood)

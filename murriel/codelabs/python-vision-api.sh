@@ -8,3 +8,6 @@ pip3 install -U pip google-cloud-vision
 python3 -c "import google.cloud.vision"
 
 added exported variable to bin/activate
+
+
+2020-06-17
