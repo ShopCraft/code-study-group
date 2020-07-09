@@ -1,3 +1,6 @@
+# Warning 
+Mostly a hot mess
+
 # code-study-group
 A general repo for storing code and commits from our informal study group. Messy first drafts and incomplete snippets are welcome! 
 
@@ -22,3 +25,6 @@ pip freeze > requirements.txt
 
 # Shortcuts - IDE (VS Code)
 Ctrl + J = remove line breaks
+
+# TODO
+Sanitize for general consumption.
